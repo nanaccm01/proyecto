@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../js-css/registro_producto/registro_producto.css">
+  <title>Formulario Registro</title>
+</head>
+<body>
+  <img src="../js-css/admin/logo1.jpg" class="logo1">
+  <section class="form-register">
+    <h4>Formulario Registro</h4>
+    <form  method="POST" action="/RProductos">
+      <input class="controls" type="varchar" name="cod_telefono" id="cod_telefono" placeholder="codigo telefono">
+      <input class="controls" type="text" name="comp_telefono" id="comp_telefono" placeholder="comprar telefono">
+      <input class="controls" type="text" name="nom_telefono" id="nom_telefono" placeholder="nombre telefono">
+      <input class="controls" type="text" name="model_telefono" id="model_telefono" placeholder="modelo del telefono">
+      <input class="controls" type="number" name="cantid_telefono" id="cantid_telefono" placeholder="cantid_telefono">
+      <section class="form-control">
+        <select class="pagos" name="mone_pro" id="pagos">
+          <option name="mone_pro">forma de pagos</option>
+          <option name="Bolivares">Bolivares</option>
+          <option name="Dolares">Dolares</option> 
+          <option name="Pesos">Pesos</option>
+        </select>
+      </section>
+      <input class="botons" type="submit" value="Registrar">
+    </form>
+    <p><a href="/admin">CANCELAR</a></p>
+  </section>
+
+</body>
+<script src=""></script>
+<script src=""></script>
+</html>

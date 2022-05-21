@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    width: 100vw;
+    height: 100vh;
+}
+.logo{
+    left: 40%;
+    position: relative;
+}
+.titulo{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.parrafo{
+    
+    font-size: 20px;
+    position: relative;
+    left:20%;
+}
+h2{
+    text-align: center;
+}
+caption{
+    text-align: center;
+    left: 50%;
+}
+td,th{
+    border: 3px solid rgb(15, 96, 218);
+    left: 2cm;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+table{
+    background-image: radial-gradient(circle at 50% -20.71%, #ffa969 0, #ffaf5f 5%, #ffb457 10%, #fbba51 15%, #eebf4d 20%, #e0c44c 25%, #d2c94e 30%, #c3ce52 35%, #b3d159 40%, #a2d561 45%, #90d86c 50%, #7cdb78 55%, #65dd85 60%, #48df94 65%, #0fe0a2 70%, #00e1b2 75%, #00e2c2 80%, #00e2d1 85%, #00e2e1 90%, #00e2f0 95%, #00e1fe 100%);
+    width: 80%;
+    margin: 10px;
+    left: 10%;
+    position: absolute;
+    padding:10px;
+}
+.titulo-tabla{
+    font-size: 35px;
+}
+.fondo{
+   
+}

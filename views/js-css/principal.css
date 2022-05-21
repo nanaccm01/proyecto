@@ -1,0 +1,92 @@
+body{
+    background-image: url(banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+}
+.botones{
+    margin-left: 75%;
+}
+
+.titulo{
+    font-size: 50px;
+    color: black;
+}
+
+.subtitulo{
+    font-size: 20px;
+    text-align: justify;
+}
+
+img{
+    left: 50vh;
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 10%;
+}
+
+.contenido{
+    margin-top: 200px;
+    width: 50vh;
+    left: 80px;
+}
+
+@media screen and (max-width:768px) and (min-width:576px){
+    body{
+        background: rgb(194, 129, 129);
+        border: 2px solid blue;
+    }
+    img{
+        float: right;
+        height: 30%;
+        margin-top: 80%;
+        margin-right: 10%;
+    }
+    .botones{
+        margin-left: 48%;
+    }
+    .contenido{
+        margin-top: 1%;
+    }
+}
+
+@media screen and (max-width:992px) and (min-width:769px){
+    body{
+        background: rgb(111, 182, 121);
+        border: 2px solid rgb(190, 43, 32);
+    }
+    img{
+        float: right;
+        height: 40%;
+        margin-top: 35%;
+        margin-right: 4%;
+    }
+    .botones{
+        margin-left: 55%;
+    }
+    .contenido{
+        margin-top: 1%;
+    }
+}
+
+@media screen and (max-width:1200px) and (min-width:993px){
+    body{
+        background: rgb(185, 107, 155);
+        border: 2px solid rgb(214, 211, 19);
+    }
+    img{
+        float: right;
+        height: 60%;
+        margin-top: 35%;
+        margin-right: 4%;
+    }
+    .botones{
+        margin-left: 65%;
+    }
+    .contenido{
+        margin-top: 1%;
+    }
+}
