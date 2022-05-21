@@ -226,7 +226,7 @@ li a.active, li a:hover{
     }
 }
 
-@media screen and (max-width: 800px) and (min-width:500px){
+@media screen and (max-width: 800px){
     .body{
         width: 100vw;
         height: 100vh;
