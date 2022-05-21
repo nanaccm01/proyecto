@@ -1,0 +1,342 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    background: white;
+    height: 80px;
+    width: 100%;
+}
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+}
+.logo{
+    height: 40px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: rgb(73, 223, 14);
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+li a.active, li a:hover{
+    background: #000090;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+.fondo{
+    background: url(banner.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(85vh - 80px);
+}
+.caja1{
+    width: 500px;
+    text-align: justify;
+    left: 25%;
+    height: 300px;
+    font-size: 20px;
+    
+}
+.foto1{
+    left: 50%;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 15cm ;
+}
+.foto1:hover{
+    transition: 4.5s;
+    transform: scale(1.2);
+}
+.titulo1{
+    font-size: 55px;
+    top: 32cm;
+    position: absolute;
+    left: 5%;
+}
+.caja2{
+    background: rgb(25, 135, 84);
+    border: solid  7px black;
+    height: 700px;
+    margin: 10px;
+
+}
+.foto2{
+    width: 300px;
+    left: 50%;
+    position: absolute;
+    top: 24cm; 
+}
+.foto2:hover{
+    transition: 4.5s;
+    transform: scale(0.5) rotate(360deg);
+}
+.foto3{
+    width: 300px;
+    left: 69%;
+    position: absolute;
+    top: 28cm; 
+}
+.foto3:hover{
+    transition: 4.5s;
+    transform: scale(0.5) rotate(360deg);
+}
+.foto4{
+    width: 300px;
+    left: 50%;
+    position: absolute;
+    top: 33cm;  
+}
+.foto4:hover{
+    transition: 4.5s;
+    transform: scale(0.5) rotate(360deg);
+}
+.titulo2{
+    font-size: 20px;
+    top: 57cm;
+    position: absolute;
+    left: 20%;
+}
+.parrafo1{
+    
+    width: 800px;
+    position: absolute;
+    text-align: justify;
+    top: 60cm;
+    font-size: 25px;
+}
+.caja3{
+    background: rgb(25, 135, 84);
+    height: 350px;
+    margin: 10px;
+    border: solid  7px  black;
+}
+.titulo3{
+    color: goldenrod;
+    text-align: center;
+    background: darkblue;
+}
+.parrafo2{
+    position: absolute;
+    text-align: center;
+    height: 200px;
+    width: 100%;
+}
+.caja4{
+    text-align: justify;
+    font-size: 40px;
+    background-color: rgb(25, 135, 84);
+    margin: 10px;
+    border: solid  7px black;
+    width: 100%;
+    height: 300px;
+}
+@media screen and (max-width: 500px) and (min-width: 300px){
+    .body{
+        width: 100vw;
+        height: 100vh;
+    }
+    .caja1{
+        width: 100%;
+        flex-direction: column;
+    }
+    .foto1{
+        display: none;
+    }
+    .caja2{
+        width: 100%;
+        
+    }
+    .titulo1{
+        top: 22cm;
+        font-size: 20px;
+        left: 35%;
+    }
+   .foto2{
+        width: 100px;
+        position: absolute;
+        top: 32cm;
+        
+    } 
+    .foto3{
+        width: 100px;
+        position: absolute;
+        top: 25cm;
+        left: 15%;
+    } 
+    .foto4{
+        width: 100px;
+        position: absolute;
+        top: 25cm;
+        
+    }
+    .caja3{
+        width: 100%;
+        height: 600px;
+    }
+    .titulo2{
+        top: 55cm;
+    }
+    .parrafo1{
+        width: 80%;
+        position: absolute;
+        left: 7%;
+        top: 58cm;
+        font-size: 20px;
+    }
+    nav{
+        display: none;
+    }
+    .caja4{
+        text-align: justify;
+        font-size: 20px;
+        background-color: rgb(25, 135, 84);
+        margin: 10px;
+        border: solid  7px black;
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width:500px){
+    .body{
+        width: 100vw;
+        height: 100vh;
+    }
+    .caja1{
+        width: 100%;
+        flex-direction: column;
+    }
+    .foto1{
+        display: none;
+    }
+    .caja2{
+        width: 100%;
+        
+    }
+    .titulo1{
+        top: 28cm;
+        font-size: 20px;
+        left: 35%;
+    }
+   .foto2{
+        width: 200px;
+        position: absolute;
+        top: 33cm;
+        
+    } 
+    .foto3{
+        width: 200px;
+        position: absolute;
+        top: 38cm;
+        left: 15%;
+    } 
+    .foto4{
+        width: 200px;
+        position: absolute;
+        top: 28cm;
+        left: 60%;
+        
+    }
+    .caja3{
+        width: 100%;
+        height: 600px;
+    }
+    .titulo2{
+        top: 60cm;
+    }
+    .parrafo1{
+        width: 80%;
+        position: absolute;
+        left: 7%;
+        top: 63cm;
+    }
+    nav{
+        display: none;
+    }
+}
+@media screen and (max-width: 1200px) and (min-width:800px){
+    .body{
+        width: 100vw;
+        height: 100vh;
+    }
+    .caja1{
+        width: 50%;
+        flex-direction: column;
+    }
+    .foto1{
+       width: 50%;
+    }
+    .caja2{
+        width: 100%;
+        
+    }
+    .titulo1{
+        top: 40cm;
+        font-size: 20px;
+        left: 10%;
+    }
+   .foto2{
+        width: 300px;
+        position: absolute;
+        top: 36cm;
+        
+    } 
+    .foto3{
+        width: 300px;
+        position: absolute;
+        top: 43cm;
+        left: 5%;
+    } 
+    .foto4{
+        width: 300px;
+        position: absolute;
+        top: 45cm;
+        left: 60%;
+        
+    }
+    .caja3{
+        width: 100%;
+        height: 600px;
+    }
+    .titulo2{
+        top: 70cm;
+    }
+    .parrafo1{
+        width: 80%;
+        position: absolute;
+        left: 7%;
+        top: 73cm;
+    }
+    nav{
+        display: none;
+    }
+}
