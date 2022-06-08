@@ -70,7 +70,7 @@ li a.active, li a:hover{
     position: absolute;
     width: 500px;
     height: 500px;
-    top: 20cm ;
+    top: 15cm ;
 }
 .foto1:hover{
     transition: 4.5s;
@@ -78,7 +78,7 @@ li a.active, li a:hover{
 }
 .titulo1{
     font-size: 55px;
-    top: 36cm;
+    top: 32cm;
     position: absolute;
     left: 5%;
 }
@@ -93,7 +93,7 @@ li a.active, li a:hover{
     width: 300px;
     left: 50%;
     position: absolute;
-    top: 30cm; 
+    top: 26cm; 
 }
 .foto2:hover{
     transition: 4.5s;
@@ -103,7 +103,7 @@ li a.active, li a:hover{
     width: 300px;
     left: 69%;
     position: absolute;
-    top: 35cm; 
+    top: 28cm; 
 }
 .foto3:hover{
     transition: 4.5s;
@@ -113,7 +113,7 @@ li a.active, li a:hover{
     width: 300px;
     left: 50%;
     position: absolute;
-    top: 38cm;  
+    top: 33cm;  
 }
 .foto4:hover{
     transition: 4.5s;
@@ -121,17 +121,16 @@ li a.active, li a:hover{
 }
 .titulo2{
     font-size: 20px;
-    top: 65cm;
+    top: 58cm;
     position: absolute;
     left: 20%;
 }
 .parrafo1{
-    width: 400px;
-    height: 400px;
-    left: 50%;
+    
+    width: 800px;
     position: absolute;
     text-align: justify;
-    top: 64cm;
+    top: 61cm;
     font-size: 25px;
 }
 .caja3{
@@ -158,8 +157,9 @@ li a.active, li a:hover{
     margin: 10px;
     border: solid  7px black;
     width: 100%;
+    height: 300px;
 }
-@media screen and (max-width: 500px) and (min-width: 300px){
+@media screen and (max-width: 500px){
     .body{
         width: 100vw;
         height: 100vh;
@@ -173,17 +173,18 @@ li a.active, li a:hover{
     }
     .caja2{
         width: 100%;
+        height: 25cm;
         
     }
     .titulo1{
-        top: 20cm;
+        top: 22cm;
         font-size: 20px;
         left: 35%;
     }
    .foto2{
         width: 100px;
-        position: absolute;
-        top: 32cm;
+        position: relative;
+        top: 25cm;
         
     } 
     .foto3{
@@ -195,7 +196,7 @@ li a.active, li a:hover{
     .foto4{
         width: 100px;
         position: absolute;
-        top: 28cm;
+        top: 10cm;
         
     }
     .caja3{
@@ -203,16 +204,28 @@ li a.active, li a:hover{
         height: 600px;
     }
     .titulo2{
-        top: 53cm;
+        top: 99cm;
+        position: absolute;
     }
     .parrafo1{
         width: 80%;
-        position: absolute;
+        position: relative;
         left: 7%;
-        top: 56cm;
+        top: 70cm;
+        font-size: 20px;
+        display: flex;
     }
     nav{
         display: none;
+    }
+    .caja4{
+        text-align: justify;
+        font-size: 20px;
+        background-color: rgb(25, 135, 84);
+        margin: 10px;
+        border: solid  7px black;
+        width: 100%;
+        height: 300px;
     }
 }
 
@@ -233,9 +246,10 @@ li a.active, li a:hover{
         
     }
     .titulo1{
-        top: 28cm;
-        font-size: 20px;
+        top: 22cm;
+        font-size: 30px;
         left: 35%;
+        position: absolute;
     }
    .foto2{
         width: 200px;
@@ -261,19 +275,20 @@ li a.active, li a:hover{
         height: 600px;
     }
     .titulo2{
-        top: 60cm;
+        top: 10cm;
+        position: absolute;
     }
     .parrafo1{
         width: 80%;
         position: absolute;
         left: 7%;
-        top: 63cm;
+        top: 50cm;
     }
     nav{
         display: none;
     }
 }
-@media screen and (max-width: 1200px) and (min-width:800px){
+@media screen and (max-width: 1700px) and (min-width:1200px){
     .body{
         width: 100vw;
         height: 100vh;
@@ -284,33 +299,36 @@ li a.active, li a:hover{
     }
     .foto1{
        width: 50%;
+       left: 60%;
+       top: 20cm ;
     }
     .caja2{
         width: 100%;
         
     }
     .titulo1{
-        top: 40cm;
+        top: 35cm;
         font-size: 20px;
-        left: 10%;
+        left: 5%;
     }
    .foto2{
         width: 300px;
         position: absolute;
-        top: 36cm;
+        top: 30cm;
+        left: 10cm;
         
     } 
     .foto3{
         width: 300px;
         position: absolute;
-        top: 43cm;
-        left: 5%;
+        top: 30cm;
+        left: 65%;
     } 
     .foto4{
         width: 300px;
         position: absolute;
-        top: 45cm;
-        left: 60%;
+        top: 39cm;
+        left: 10cm;
         
     }
     .caja3{
@@ -318,15 +336,13 @@ li a.active, li a:hover{
         height: 600px;
     }
     .titulo2{
-        top: 70cm;
+        top: 63cm;
     }
     .parrafo1{
         width: 80%;
         position: absolute;
         left: 7%;
-        top: 73cm;
+        top: 68cm;
     }
-    nav{
-        display: none;
-    }
+    
 }

@@ -43,4 +43,33 @@ body{
     button{
         opacity: .7;
     }
-    
+    @media screen and (max-width: 500px){
+        body{
+            width: 100vh;
+            height: 100vh;
+        }
+        .fondo{
+            width: 100vh;
+            height: 100vh;
+        }
+    }
+    @media screen and (max-width: 720px) and (min-width: 500px){
+        body{
+            width: 100vh;
+            height: 100vh;
+        }
+        .fondo{
+            width: 150vh;
+            height: 100vh;
+        }
+    }
+    @media screen and (max-width: 1440px) and (min-width: 720px){
+        body{
+            width: 100vh;
+            height: 100%;
+        }
+        .fondo{
+            width: 150vh;
+            height: 110vh;
+        }
+    }

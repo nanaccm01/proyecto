@@ -1,0 +1,31 @@
+body{
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.table1 td, th, .th1{
+    border: 3px solid black;
+    background-image: radial-gradient(circle at 41.41% 58.59%, #a7f48a 0, #93ec8d 16.67%, #80e38f 33.33%, #6cd890 50%, #59cd90 66.67%, #46c391 83.33%, #33bb92 100%);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+img{
+    margin-left: 35%;
+    width: 30%;
+    height: 20%;
+    margin-bottom: 3%;
+
+}
+.volver{
+    margin-left: 93%;
+}
+.S22, .Xiaomi12, .Pixel{
+    width: 200px;
+    height: 200px;
+    left: 70vh;
+    
+}
+h1{
+    text-align: center;
+    color: #541eaa;
+}
